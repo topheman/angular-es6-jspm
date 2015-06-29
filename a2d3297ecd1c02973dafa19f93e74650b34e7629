@@ -1,0 +1,6 @@
+To run the app with the bundle :
+
+* `jspm bundle app/bootstrap.js ./.tmp/scripts/app.bootstrap.build.js`
+* in `src/index.html` uncomment the script tag pointing to `app.bootstrap.build.js`
+
+For the moment, `jspm bundle-sfx` doesn't work, it's a bug in systemjs builder which soon be fixed : https://github.com/systemjs/builder/issues/212

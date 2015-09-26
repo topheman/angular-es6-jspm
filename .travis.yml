@@ -20,4 +20,4 @@ before_script:
 - npm run forever-start-dist
 script:
 - npm test
-- npm run test-e2e
+- '[ "${TRAVIS_PULL_REQUEST}" = "false" ] && npm run test-e2e || false'

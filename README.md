@@ -144,7 +144,7 @@ If either one of them fails, the build will be flagged as failed.
 
 *You can skip this if e2e testing isn't part of your Continuous Integration workflow.*
 
-SauceLabs is a cross-browser automation tool built on top of Selenium WebDriver (Protractor uses Selenium WebDriver). It lets you run e2e tests accross multiple devices and is well integrated to Travis CI.
+SauceLabs is a cross-browser automation tool built on top of Selenium WebDriver (Protractor uses Selenium WebDriver). It lets you run e2e tests across multiple devices and is well integrated to Travis CI.
 
 If you want to set it up for your own project, [read this post](http://dev.topheman.com/setup-travis-ci-saucelabs-for-protractor).
 
